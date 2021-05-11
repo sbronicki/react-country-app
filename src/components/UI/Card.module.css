@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 5px;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.card:hover {
+    background-color: aqua;
+}
+.card h3 {
+    padding-top: 0;
+    margin-top: 0;
+}
